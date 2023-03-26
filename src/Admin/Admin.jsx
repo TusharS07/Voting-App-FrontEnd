@@ -70,6 +70,7 @@ const Admin = () => {
       <button onClick={logOutHandler} className="Button">
         Logout
       </button>
+      <ToastContainer autoClose={2000} />
     </div>
   );
 };
