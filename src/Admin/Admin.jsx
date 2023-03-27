@@ -60,7 +60,7 @@ const Admin = () => {
                   <tr key={candidateAllVotes.candidateId}>
                     <td>{candidateAllVotes.candidateId}</td>
                     <td>{candidateAllVotes.candidateName}</td>
-                    <td>{candidateAllVotes.votingCount}</td>
+                    <td>{candidateAllVotes.voteCount}</td>
                   </tr>
                 );
               })
